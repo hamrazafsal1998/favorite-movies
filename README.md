@@ -4,7 +4,7 @@ A well-structured, single-page web application built with **React and Vite**. Th
 
 ## Links
 
-- **GitHub Repository:** https://github.com/muhammedshazinsameer/favorite-movies-showcase.git
+- **GitHub Repository:** https://github.com/hamrazafsal1998/favorite-movies.git
 
 - **Live Website:** https://favorite-movies-showcase.vercel.app/
 
