@@ -1,0 +1,61 @@
+.movie-card {
+  padding: 20px;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  margin-bottom: 20px;
+  background-color: var(--color-background-light);
+  transition: all 0.3s ease;
+  
+  display: grid;
+  grid-template-areas: 
+    "title genre"
+    "love love";
+  grid-template-columns: 3fr 1fr;
+  gap: 10px 20px;
+}
+
+.movie-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  border-color: var(--color-secondary);
+}
+
+.movie-title {
+  grid-area: title;
+  color: var(--color-primary);
+  font-size: 1.8em;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.movie-genre {
+  grid-area: genre;
+  align-self: center;
+  text-align: right;
+  font-size: 0.9em;
+  color: var(--color-text-muted);
+  font-style: italic;
+  padding: 5px 10px;
+  background-color: var(--color-background-off-white);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+}
+
+.love-section {
+  grid-area: love;
+  margin-top: 15px;
+  border-top: 1px dashed var(--color-border);
+  padding-top: 15px;
+}
+
+.love-section h4 {
+  color: var(--color-text-dark);
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 1.1em;
+}
+
+.love-section p {
+  color: var(--color-text-dark);
+  line-height: 1.5;
+}
